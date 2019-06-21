@@ -8,6 +8,7 @@ const Login = props => {
       })
 
       const handleChange = e => {
+        e.persist()
         setCreds(prevCreds => ({
           ...prevCreds,
           [e.target.name]: e.target.value
