@@ -4,7 +4,8 @@
   "description": "Authentication Sprint Challenge",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon index.js"
+    "server": "nodemon",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "helmet": "^3.18.0",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.17.0",
+    "react-router": "^5.0.1",
     "sqlite3": "^4.0.8"
   },
   "devDependencies": {
